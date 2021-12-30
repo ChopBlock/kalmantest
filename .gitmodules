@@ -1,0 +1,3 @@
+[submodule "3rdpart/csv-parser"]
+	path = 3rdpart/csv-parser
+	url = https://github.com/vincentlaucsb/csv-parser.git

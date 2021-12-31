@@ -4,6 +4,13 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
     csvt csvr;
-    csvr.getcsvdata();
-    return a.exec();
+  std::vector<std::vector<float> > f=  csvr.getcsvdata();
+
+    csvr.FirFilter(f);
+
+  return a.exec();
+
+
+
+
 }

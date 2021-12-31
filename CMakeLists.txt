@@ -15,10 +15,10 @@ find_package(QT NAMES Qt6 Qt5 COMPONENTS Core REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core REQUIRED)
 find_package(Eigen3  REQUIRED)
 
+
 add_subdirectory(3rdpart/csv-parser)
 
 include_directories(
-    include/kalman/
     CSVtest/
     3rdpart/csv-parser/single_include/
     ${Eigen3_INCLUDE_DIR}
@@ -36,4 +36,5 @@ target_link_libraries(kalmantest
     Qt${QT_VERSION_MAJOR}::Core
     Eigen3::Eigen
     csv
+
     )

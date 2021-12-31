@@ -1,6 +1,4 @@
 [submodule "3rdpart/csv-parser"]
 	path = 3rdpart/csv-parser
 	url = https://github.com/vincentlaucsb/csv-parser.git
-[submodule "3rdpart/kfr"]
-	path = 3rdpart/kfr
-	url = https://github.com/kfrlib/kfr.git
+
